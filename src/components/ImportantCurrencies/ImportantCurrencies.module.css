@@ -1,0 +1,17 @@
+.ImportantCurrencies {
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.sectionTitle {
+  color: var(--dark-text-color);
+}
+
+.sectionTitle svg {
+  fill: var(--dark-text-color);
+}

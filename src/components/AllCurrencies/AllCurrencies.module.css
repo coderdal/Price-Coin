@@ -1,0 +1,11 @@
+.AllCurrencies {
+  margin-top: 50px;
+}
+
+.sectionTitle {
+  color: var(--dark-text-color);
+}
+
+.sectionTitle svg {
+  fill: var(--dark-text-color);
+}

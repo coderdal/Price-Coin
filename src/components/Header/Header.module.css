@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  border-bottom: 1px solid var(--header-border-color);
+  background: var(--header-bg-color);
+}
+
+.brandLogo a {
+  color: var(--header-title-color);
+}

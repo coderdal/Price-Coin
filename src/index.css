@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #f5f6f9;
+  --dark-text-color: #000000;
+  --text-color: #202020;
+  --text-light-color: #363636;
+  --green-color: #3eac8a;
+  --red-color: #d63b48;
+  --header-bg-color: rgb(245, 245, 245);
+  --header-title-color: #0052ff;
+  --border-color: rgb(219, 219, 219);
+  --header-border-color: rgb(219, 219, 219);
+  --contrast-border-color: rgb(175, 174, 174);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--body-bg-color);
+  color: var(--text-color);
+  transition: 250ms all ease-in;
+}
+
+body.dark {
+  --body-bg-color: #282828;
+  --dark-text-color: #ffffff;
+  --text-color: #ececec;
+  --text-light-color: #ffffff;
+  --green-color: #3eac8a;
+  --red-color: #d63b48;
+  --header-bg-color: rgb(24, 25, 27);
+  --header-border-color: rgba(255, 255, 255, 0);
+  --header-title-color: #ffffff;
+  --border-color: rgba(170, 170, 170, 0.795);
+  --contrast-border-color: rgba(153, 153, 153, 0.795);
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  fill: var(--dark-text-color);
+}
+
+.MuiDataGrid-cell--textLeft img {
+  width: 50px;
+  padding: 5px;
+}
+
+.negative_price {
+  color: var(--red-color);
+}
+
+.positive_price {
+  color: var(--green-color);
+}
+
+.positive_price::after,
+.negative_price::after {
+  content: "%";
+}
+
+.price::after {
+  content: "$";
+}
+
+.price {
+  color: var(--dark-text-color);
+}
+
+.MuiDataGrid-main svg,
+.MuiToolbar-root svg {
+  color: var(--dark-text-color) !important;
+}
+
+.MuiOutlinedInput-input,
+.MuiInputLabel-root,
+.MuiDataGrid-main,
+.MuiToolbar-root,
+.MuiDataGrid-selectedRowCount {
+  color: var(--dark-text-color) !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: var(--text-color) !important;
+}
