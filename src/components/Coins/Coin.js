@@ -17,13 +17,8 @@ const Coin = ({
   marketCapChangePerDay,
   ath,
 }) => {
-  // const priceChangePerDay = "0.38979";
-  //const priceChangePerDay = (0.7979).toFixed(2);
 
-  const priceChangePercent =
-    priceChangePercentagePerDay && priceChangePercentagePerDay.toFixed(2);
-
-  // console.log(priceChangePerDay.toFixed(2))
+  const priceChangePercent = priceChangePercentagePerDay && priceChangePercentagePerDay.toFixed(2);
 
   return (
     <div className={styles.Container}>

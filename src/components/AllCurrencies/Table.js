@@ -121,27 +121,6 @@ export default function DataTable() {
     ];
   });
 
-  /*const asd = [
-  { id: 1, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 1235, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 2, image: 'https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880',  name: 'qwe', price: 112, day: -35.5, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 3, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 13, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 4, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 17, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 5, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 12, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 6, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 71, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 7, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 1, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 8, image: 'https://assets.coingecko.com/coins/images/325/large/Tether-logo.png?1598003707',  name: 'qwe', price: 176, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 9, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 1, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 10, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 1, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 11, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 1, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 12, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 1, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 13, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 1, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 14, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 1, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 15, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 1, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 16, image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579',  name: 'qwe', price: 1, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-  { id: 17, image: 'https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880',  name: 'qwe', price: 1, day: 35, high: 5300, low: 4940, mktcap: 757141801647 },
-
-];*/
-
   return (
     <div style={{ height: 650, width: "100%" }}>
       <DataGrid
