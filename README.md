@@ -1,7 +1,18 @@
-## Price Coin App
+## Price Coin - React Crypto Currencies App
 
-This application has been prepared using the CoinGecko API (https://www.coingecko.com/).
+An app where you can follow the prices of many crypto currency.
 
-Live Preview: https://pricecoin.netlify.app/
+Developed with CoinGecko API using React, Redux, MUI, CSS.
 
-Design & Develop by CodErdal
+App Features:
+- Live Coin Prices
+- Exchange
+- List of Currencies
+- Filter options
+
+Project Features:
+- Fully Mobile Responsive
+- UI - UX Based Design
+- Dark - Light Theme
+
+### **Live preview:** https://pricecoin.netlify.app/
